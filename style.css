@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  padding: 30px;
+  margin-top: 40px;
+}
+.header h1 {
+  font-size: 1.4rem;
+}
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.input-text-box {
+  width: 300px;
+  height: 35px;
+  border: 1px solid white;
+  background-color: #000;
+  padding-left: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.btn {
+  width: 100px;
+  padding: 8px 12px;
+  margin: 20px 0 20px 0;
+  border-radius: 5px;
+}
+.added-emp {
+  margin: 12px 12px 0 0;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+}
+.success-message {
+  color: green;
+  font-size: 1.2rem;
+}
+.list_container {
+  width: 500px;
+}
+.list_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.paraContainer {
+  display: flex;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 22px;
+  justify-content: space-around;
+}
+.paraContainer p {
+  padding: 16px;
+}
+.list_box button {
+  width: 100px;
+  height: 40px;
+  margin-right: 12px;
+  border-radius: 22px;
+}
+
+.data_not_found{
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
